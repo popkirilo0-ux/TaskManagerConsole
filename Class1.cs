@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System; //случайно создал
 
 public class Class1
 {
