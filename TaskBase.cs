@@ -19,6 +19,10 @@ namespace TaskManagerConsole
     class WorkTask : TaskBase
     {
         public DateTime deadLine;
+        public WorkTask()
+        {
+
+        }
         public WorkTask(string title,string description, DateTime deadLine) 
         {
             Title = title;
@@ -40,6 +44,10 @@ namespace TaskManagerConsole
     class PersonalTask : TaskBase
     {
         public byte prioritet;
+        public PersonalTask()
+        {
+            
+        }
         public PersonalTask(string title, string description, byte prioritet)
         {
             Title = title;
